@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'watch' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 verbose run-script [ 'prewatch', 'watch', 'postwatch' ]
+5 info lifecycle cotd@0.0.1~prewatch: cotd@0.0.1
+6 silly lifecycle cotd@0.0.1~prewatch: no script for prewatch, continuing
+7 info lifecycle cotd@0.0.1~watch: cotd@0.0.1
+8 verbose lifecycle cotd@0.0.1~watch: unsafe-perm in lifecycle true
+9 verbose lifecycle cotd@0.0.1~watch: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Thales\Documents\GitHub\sandbox\react-sandbox\node_modules\.bin;C:\Ruby23-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\TortoiseGit\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\MongoDB\Server\3.2\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Sublime Text 3;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\OpenShift-RHC;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Thales\AppData\Roaming\npm
+10 verbose lifecycle cotd@0.0.1~watch: CWD: C:\Users\Thales\Documents\GitHub\sandbox\react-sandbox
+11 silly lifecycle cotd@0.0.1~watch: Args: [ '/d /s /c',
+11 silly lifecycle   'concurrently --names "webpack, stylus" --prefix name "npm run start" "npm run styles:watch"' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:172:13)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+13 verbose cwd C:\Users\Thales\Documents\GitHub\sandbox\react-sandbox
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "watch"
+16 error node v6.9.4
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
